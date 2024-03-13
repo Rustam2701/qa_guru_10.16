@@ -13,3 +13,4 @@ def test_github_main_page_mobile(mobile_browser):
     browser.open('/')
     browser.element('[class="flex-1"] [data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in"]'). \
         click()
+
